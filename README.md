@@ -13,6 +13,6 @@
 
 Если кому-то правда интересно, то я нашёл [***стандарт ISO 3166-1***](https://www.iso.org/obp/ui/#search/code/). Стоит понимать, что список из постановления не будет совпадать со списком из этого стандарта, так как есть страны, статус которых признаются или не признаются Россией в отличие от международной организации.
 
-Также стоит отметить, что для генерации стран можно было воспользоваться пакетами [***pycountry***](https://pypi.org/project/pycountry/), [***country-list***](https://pypi.org/project/country-list/) или [***faker***](https://faker.readthedocs.io/en/master/providers/faker.providers.address.html#faker.providers.address.Provider.country). Первым и вторым пакетами особо не пользовался, причина скорее всего в отсутствии русских названий. Советую присмотреться к последнему пакету, который существенно упрощает генерацию различных данных: стран, языков и т.п.
+Также стоит отметить, что для генерации стран можно воспользоваться пакетами [***pycountry***](https://pypi.org/project/pycountry/), [***country-list***](https://pypi.org/project/country-list/) или [***faker***](https://faker.readthedocs.io/en/master/providers/faker.providers.address.html#faker.providers.address.Provider.country). Первым и вторым пакетами особо не пользовался из-за отсутствия русских названий. Советую присмотреться к последнему пакету, который существенно упрощает генерацию различных данных (в том числе и на русском языке): стран, языков и т.п.
 
 </div>
