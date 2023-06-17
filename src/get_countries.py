@@ -1,7 +1,7 @@
 import re
 
 
-countries_file = 'countries_table.txt'
+countries_file = '../txt/countries_table.txt'
 
 
 def get_countries():
