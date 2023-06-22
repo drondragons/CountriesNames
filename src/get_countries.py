@@ -30,4 +30,24 @@ def get_countries():
     
     with open('countries.txt', 'w', encoding='utf-8') as f:
         f.write('\n'.join(result))
+        
+        
+def get_short_countries_name():
+    with open(countries_file, 'r', encoding='utf-8') as f:
+        data = f.read().splitlines()
+    
+    data = [row.split('│') for row in data ]
+    data = [[el for el in row if el] for row in data]
+
+    result = list()
+    for i in range(len(data)):
+        if len(data[i]) < 4 or data[i][0].isspace():
+            i += 1
+            continue
+        
+        result.append(re.sub('\s+', ' ', data[i][1].strip()).title())
+    
+    with open('countries_short_name.txt', 'w', encoding='utf-8') as f:
+        f.write('\n'.join(result))
+        
     
